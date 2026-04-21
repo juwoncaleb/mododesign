@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.modo_logo {
+  height: 35px;
+}
+
+.header_div {
+  font-family: "Radley", serif;
+  background-color: #f6f3e7;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header_icon {
+  height: 20px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.offer_div {
+  background-color: #fbf9f4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.offer_text {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.offer_text_arrow {
+  margin-top: 5px;
+  margin-right: 20px;
+  font-family: "Radley", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #65000B;
+}
+
+/* HERO SECTION */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Background video */
+.video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+/* Dark overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* adjust darkness */
+  z-index: 1;
+}
+
+/* Centered text */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+}
+
+/* NORMAL PAGE CONTENT */
+.content-section {
+  padding: 80px 20px;
+  background: #fff;
+  color: #111;
+  text-align: center;
+}
+
+.content-section:nth-child(even) {
+  background: #f5f5f5;
+}
+
+.hero-content {
+  font-family: "Radley", serif;
+}
+
+.seebtn {
+  background-color: #65000B;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.main_div {
+  background-color: rebeccapurple;
+}
+
+.discount_div {
+  font-family: "Radley", serif;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  color: white;
+  background-color: #3a111f;
+}
+
+.discount_price {
+  padding-left: 70px;
+  padding-right: 70px;
+  border-right: 1px solid snow;
+}
+
+.discount_head {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.reason_text {
+  font-size: 35px;
+  font-family: "Radley", serif;
+  color: white !important;
+}
+
+.reasn_txt {
+  font-size: 55px !important;
+  font-family: "Radley", serif;
+}
+
+.reason_div {
+  padding-top: 70px;
+  margin-top: 100px;
+}
+
+.selling {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #3a111f;
+}
+
+.image__text {
+  max-width: 500px;
+  padding-top: 250px;
+}
+
+.carousel_img {
+  background-color: #F6F3E7;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.img_txt {
+  font-size: 20px !important;
+  color: #3a111f;
+  font-family: "Radley", serif;
+}
+
+.bestselling {
+  color: #F6F3E7 !important;
+  background-color: #3c101e;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.modo_shop {
+  font-size: 35px;
+  font-family: "Radley", serif;
+}
+
+.modo_text {
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.view_all {
+  width: 120px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid white;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.new_items {
+  background-color: #F6F3E7;
+}
+
+.lop {
+  height: 100px;
+}/*# sourceMappingURL=global.css.map */
