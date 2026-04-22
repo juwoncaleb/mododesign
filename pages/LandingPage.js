@@ -1,6 +1,9 @@
 import React from "react";
 import Header from "./components/Header";
 import ImageCarousel from "./components/carousel";
+import FurnitureCarousel from "./components/furinitre";
+import FAQ from "./components/faq";
+import Footer from "./components/Footer";
 
 export default function LandingPage() {
   return (
@@ -56,16 +59,34 @@ export default function LandingPage() {
       <div className="bestselling">
         <center>
           <p className="modo_shop">Shop the look with MODO</p>
-          <p className="modo_text">Thoughtfully made by people who live in homes, too. That’s why you love them so much.</p>
-        <button className="view_all">
-          View all
-        </button>
+          <p className="modo_text">
+            Thoughtfully made by people who live in homes, too. That’s why you
+            love them so much.
+          </p>
+          <button className="view_all">View all</button>
         </center>
       </div>
 
-      <div className="new_items">
-fjjf
-      </div>
+      <FurnitureCarousel />
+      <section
+        className="background_div h-screen bg-cover bg-center flex items-center justify-center relative"
+        style={{ backgroundImage: "url('/bg.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-black/30"></div>
+
+        <div className="relative text-center text-white max-w-2xl px-4">
+          <h1 className="text-2xl md:text-4xl leading-relaxed mb-6">
+            A good piece of furniture opens your eyes to the spaces you already
+            have, and all the life that’s waiting to be lived in them.
+          </h1>
+
+          <button className="border border-white px-6 py-3 hover:bg-white hover:text-black transition">
+            READ OUR STORY
+          </button>
+        </div>
+      </section>
+      <FAQ/>
+      <Footer/>
     </div>
   );
 }
